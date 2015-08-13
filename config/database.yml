@@ -10,16 +10,16 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 #
 default: &default
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
   pool: 5
-  username: root
+  username: postgres
   password: adgjmptw
   host: localhost
 
 development:
-  adapter: mysql2
-  username: root
+  adapter: postgresql
+  username: postgres
   password: adgjmptw
   host: localhost
   database: identity_development
